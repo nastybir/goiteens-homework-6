@@ -553,7 +553,7 @@ letter-spacing: 0.03em;
     display: inline-block;
     border: 1px solid black;
     border-radius: 4px;
-    width: 73px;
+   min-width: 73px;
     height: 38px;
     padding: 6px 22px;
   }
@@ -575,4 +575,13 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
+  }
+  .examples
+  {
+      display: flex;
+      flex-wrap: wrap;
+     
+  }
+  .section-portfolio {
+      margin-top: 182px;
   }
